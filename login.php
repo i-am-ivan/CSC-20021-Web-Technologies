@@ -29,8 +29,14 @@
         <h1> Login to Dashboard</h1>
         <form action="./data/php/login.php" method="post" class="" id="">
             <div class="">
-                <div class="my-forms"> Username: <input type="text" id="username" name="username" required> </div>
-                <div class="my-forms"> Password: <input type="password" id="password" name="password" required> </div>
+                <div class="my-forms">
+                    <label>Username:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="my-forms">
+                    <label>Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
             </div>
             <div>
                 <button type="submit"> Login </button>

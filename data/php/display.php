@@ -1,3 +1,6 @@
+<?php
+    session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,17 +19,19 @@
                         <a href="list.php"> List </a>
                     </li>
                     <li class="active">
-                        <a href="display.html"> { Record Name } </a>
+                        <a href="display.php"> { Record Name } </a>
                     </li>
                     <li class="login">
-                        <a href="login.html" class="login">Logout</a>
+                        <a href="logout.php" class="login">Logout</a>
                     </li>
                 </ul>
             </nav>
     </div>
 
     <div class="container">
-        <h1> { Record Name } </h1>
+        <h1>
+            Hello, <?php echo $_SESSION['username']; ?>
+        </h1>
 
     </div>
 

@@ -36,3 +36,5 @@
         // If login failed
         header('Location: session.php');
     }
+
+?>

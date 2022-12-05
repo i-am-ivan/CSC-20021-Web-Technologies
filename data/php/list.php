@@ -1,3 +1,7 @@
+<?php
+    session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,13 +14,13 @@
 <body>
     <div>
             <nav class="navbar">
-                <a class="mybrand" href="list.html">CSC-20021 Web Technologies</a>
+                <a class="mybrand" href="list.php">CSC-20021 Web Technologies</a>
                 <ul>
                     <li class="active">
-                        <a href="list.html"> Records </a>
+                        <a href="list.php"> Records </a>
                     </li>
                     <li class="login">
-                        <a href="login.html" class="login">Logout</a>
+                        <a href="logout.php">Logout</a>
                     </li>
                 </ul>
             </nav>
