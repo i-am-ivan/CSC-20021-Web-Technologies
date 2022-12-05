@@ -1,0 +1,137 @@
+body{
+    font-family: Calibri;
+
+}
+
+.container{
+    padding: 16px;
+    margin: 16px;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #2f2f2f;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+}
+
+.navbar a{
+    color: aliceblue;
+}
+
+.navbar ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.navbar .mybrand{
+    font-size: 26px;
+    padding: 0 26px;
+    color: azure;
+    display: block;
+}
+
+.navbar ul li a{
+    display: block;
+    padding: 26px;
+    color: aliceblue;
+}
+
+.navbar ul a:hover, .navbar ul a:focus, .navbar ul .active{
+    background-color: darkcyan;
+}
+
+.login {
+    float: right;
+}
+
+.content {
+    position: relative;
+}
+
+table{
+    border: 1px solid #636336;
+    border-collapse: collapse;
+    font-size: 20px;
+    padding: 4px;
+    margin: 6px;
+}
+
+td {
+    padding: 2px 8px;
+    border:1px solid  #636336;
+}
+
+thead {
+    background-color: #ECE5CE;
+}
+
+footer {
+    text-align: center;
+    font-size: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.left-pane {
+    width: 30%;
+    float: left;
+}
+
+.right-pane {
+    width: 70%;
+    float: right;
+}
+
+img {
+    margin: 8px;
+}
+
+input[type=text], input[type=password] {
+    box-sizing: border-box;
+    padding: 10px 18px;
+    margin: 8px 0;
+    width: 100%;
+    display: inline-block;
+    border: 2px solid #636336;
+}
+
+.form-control {
+    padding: 16px;
+}
+
+button {
+    cursor: pointer;
+    border: #2f2f2f;
+    margin: 8px 0px;
+    padding: 14px;
+    width: 100%;
+    background-color: darkcyan;
+    color: white;
+    font-size: 16px;
+}
+
+.new-record {
+    border: #2f2f2f;
+    margin: 8px 0px;
+    font-size: 16px;
+    padding: 14px;
+    color: white;
+    background-color: darkcyan;
+    width: 100px;
+}
+
+form {
+    width: 500px;
+}
