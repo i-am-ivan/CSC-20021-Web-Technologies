@@ -10,16 +10,16 @@
 <body>
     <div>
             <nav class="navbar">
-                <a class="mybrand" href="index.html">CSC-20021 Web Technologies</a>
+                <a class="mybrand" href="index.php">CSC-20021 Web Technologies</a>
                 <ul>
                     <li>
-                        <a href="index.html">Home</a>
+                        <a href="index.php">Home</a>
                     </li>
                     <li class="active">
-                        <a href="CV.html">My CV</a>
+                        <a href="CV.php">My CV</a>
                     </li>
                     <li class="login">
-                        <a href="login.html" class="login">Login</a>
+                        <a href="login.php" class="login">Login</a>
                     </li>
                 </ul>
             </nav>

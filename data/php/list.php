@@ -26,7 +26,7 @@
         <h1> Records </h1>
         <hr>
         <div class="container">
-            <a href="new-record.html" class="new-record"> New Record </a>
+            <a href="new-record.php" class="new-record"> New Record </a>
         </div>
         <div class="">
             <table>

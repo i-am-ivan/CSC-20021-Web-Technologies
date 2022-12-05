@@ -10,10 +10,10 @@
 <body>
     <div>
             <nav class="navbar">
-                <a class="mybrand" href="list.html">CSC-20021 Web Technologies</a>
+                <a class="mybrand" href="list.php">CSC-20021 Web Technologies</a>
                 <ul>
                     <li>
-                        <a href="list.html"> List </a>
+                        <a href="list.php"> List </a>
                     </li>
                     <li class="active">
                         <a href="display.html"> { Record Name } </a>

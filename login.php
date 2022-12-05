@@ -10,16 +10,16 @@
 <body>
     <div>
             <nav class="navbar">
-                <a class="mybrand" href="index.html">CSC-20021 Web Technologies</a>
+                <a class="mybrand" href="index.php">CSC-20021 Web Technologies</a>
                 <ul>
                     <li>
-                        <a href="index.html">Home</a>
+                        <a href="index.php">Home</a>
                     </li>
                     <li>
-                        <a href="CV.html">My CV</a>
+                        <a href="CV.php">My CV</a>
                     </li>
                     <li class="login active">
-                        <a href="login.html" class="login">Login</a>
+                        <a href="login.php" class="login">Login</a>
                     </li>
                 </ul>
             </nav>
@@ -27,7 +27,7 @@
 
     <div class="container">
         <h1> Login to Dashboard</h1>
-        <form action="" method="post" class="" id="">
+        <form action="./data/php/login.php" method="post" class="" id="">
             <div class="">
                 <div class="my-forms"> Username: <input type="text" id="username" name="username" required> </div>
                 <div class="my-forms"> Password: <input type="password" id="password" name="password" required> </div>

@@ -13,7 +13,7 @@
                 <a class="mybrand" href="index.html">CSC-20021 Web Technologies</a>
                 <ul>
                     <li>
-                        <a href="list.html"> Records </a>
+                        <a href="list.php"> Records </a>
                     </li>
                     <li class="active">
                         <a href="#"> New Record </a>
